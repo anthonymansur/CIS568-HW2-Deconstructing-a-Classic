@@ -13,7 +13,7 @@ public class Ship : MonoBehaviour
     void Start()
     {
         // Vector3 default initializes all components to 0.0f
-        forceVector.x = 1.0f;
+        forceVector.x = 2.0f;
         rotationSpeed = 2.0f;
     }
 
