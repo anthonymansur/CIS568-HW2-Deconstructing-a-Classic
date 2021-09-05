@@ -22,8 +22,7 @@ public class Asteroid : MonoBehaviour
          * and XY being the horizontal plane. As a result, since we are looking down the Y axis, we rotate 
          * the particle system so that it flys in the right way.
          */
-        // TODO: not working. DO NOT SUBMIT
-        //Instantiate(deathExplosion, gameObject.transform.position, Quaternion.AngleAxis(-90, Vector3.right));
+        Instantiate(deathExplosion, gameObject.transform.position, Quaternion.AngleAxis(-90, Vector3.right));
 
         GameObject obj = GameObject.Find("GlobalObject");
         Global g = obj.GetComponent<Global>();

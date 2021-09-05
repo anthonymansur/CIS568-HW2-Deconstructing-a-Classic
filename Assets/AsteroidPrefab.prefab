@@ -143,12 +143,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6212138880312622899, guid: 6aca1990e92aa64468f87b731a77c133,
         type: 3}
-      propertyPath: deathExplosion
-      value: 
-      objectReference: {fileID: 4600947467611404891, guid: 5dc5ea34140451247bdea03fa34fa7fa,
-        type: 3}
-    - target: {fileID: 6212138880312622899, guid: 6aca1990e92aa64468f87b731a77c133,
-        type: 3}
       propertyPath: deathKnell
       value: 
       objectReference: {fileID: 8300000, guid: 4cb1bede725d66e4b9d91f69c00ce640, type: 3}
